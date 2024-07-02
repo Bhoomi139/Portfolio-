@@ -16,6 +16,7 @@ html{
     align-items: center;
     background-image: url(Untitled\ design.png);
     background-size: contain;
+    min-width:400px;
 
 
 }
@@ -30,9 +31,17 @@ html{
     border-bottom: 20px solid black;
     border-right:15px solid black;
     border-radius: 40px;
+   min-width:350px;
 
    
 }
+.myLinks{
+  display: none;
+}
+.icon{
+  display: none;
+}
+
 .navb{
 height : 10%;
 width:100%;
@@ -143,7 +152,7 @@ button{
     border: 3px solid black;
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size:medium;
-    margin-left: 45px;
+   margin-left: 30px;
     margin-bottom: 20px;
     cursor: pointer;
 }
@@ -168,6 +177,8 @@ button{
   background-color: pink;
   border-radius: 30%;
   background-image: url(WhatsApp\ Image\ 2024-02-27\ at\ 7.38.50\ PM.jpeg);
+  min-width:100px;
+  max-height:150px;
 }
 .design{
   width:100%;
@@ -215,6 +226,10 @@ button{
   
 }
 */ 
+.text h1{
+  display: none;
+}
+
 .picture2
 { width:30%;
   height:80%;
@@ -334,7 +349,7 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
 }
-@media only screen and (max-width: 768px){
+@media only screen and (max-width: 500px){
   .container2{
     display: none;
   }
@@ -350,7 +365,6 @@ body {
   .logo{
     width: 40%;
     height:100%;
-    background-color: pink;
     border-radius :20px;
     display: flex;
     flex-direction: row;
@@ -358,13 +372,61 @@ body {
     align-items: center;
 
   }
-  .logo span{
-   
+  a {
+    color: #f054af;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+
   }
+  .icon{
+  background: black;
+  display: block;
+  position: relative;
+  margin-left: auto;
+  border-radius:50%;
+  margin-top: 5px;
+  margin-right: 20px;
+
+}
+.pic{
+  border-radius: 50%;
+  min-width:150px;
+  max-height:150px;
+  background-image: url(bhoomi.jpeg);
+}
+.picture, .picture2{
+  background-image: none;
+
+}
+.text{
+  margin-left: 0;
+}
+.text span{
+  display: none;
+}
+.btnb{
+  min-width: 200px;
+  margin-top: 100px;
+}
+.button{
+  margin-top: 20px;
+}
+.text h1{
+  display: block;
+  text-align: center;
+  text-shadow: 2.5px 2px black; 
+
+}
+
+
+  }
+  
+ 
   
 
   
-}
+
 
 
   
