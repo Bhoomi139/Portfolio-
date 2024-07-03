@@ -418,6 +418,12 @@ body {
   text-shadow: 2.5px 2px black; 
 
 }
+.container{
+  height:700px;
+}
+.box1{
+  height:85%;
+}
 
 
   }
