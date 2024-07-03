@@ -427,6 +427,14 @@ body {
 
 
   }
+@media only screen and (max-height: 600px){
+  .container{
+    height:700px;
+  }
+  .box1{
+    height:85%;
+  }
+}
   
  
   
